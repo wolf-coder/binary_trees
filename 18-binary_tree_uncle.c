@@ -57,6 +57,7 @@ binary_tree_t *binary_tree_uncle(binary_tree_t *node)
 {
 	int height = 0;
 	binary_tree_t *tmp = NULL;
+
 	binary_tree_t* (*Func[])(binary_tree_t *) = {Get_left_Uncle,
 						     Get_right_Uncle};
 	if (!node)
