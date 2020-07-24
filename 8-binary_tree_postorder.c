@@ -2,7 +2,7 @@
 #include "binary_trees.h"
 
 /**
- *binary_tree_inorder-Function that goes through a binary
+ *binary_tree_postorder-Function that goes through a binary
  *->tree using inorder traversal.
  *
  *@tree: Pointer to the root node of the tree to traverse.
